@@ -1,9 +1,12 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 int main() {
 
-    cout << "Buen dia queridos estudiantes" << endl;
+    SetConsoleOutputCP(CP_UTF8);
+
+    cout << "Buen día queridos estudiantes" << endl;
 
     return 0;
 }
