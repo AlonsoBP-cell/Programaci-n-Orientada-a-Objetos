@@ -83,7 +83,7 @@ while (opcion != 5 && vivo == true ){
     cout << "[1] Avanzar" << endl;
     cout << "[2] Saltar" << endl;
     cout << "[3] Recibir daño" << endl;
-    cout << "[4] Revisar estado Poo" << endl; 
+    cout << "[4] Revisar estado " << nombre << endl; 
     cout << "[5] Salir" << endl; 
     cin >> opcion;
 
