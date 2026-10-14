@@ -178,8 +178,8 @@ bool estaVivoEnemigo = true;
 int opcionMenu = 0;
 
 Tributo jugador(nombre,vida,estaVivo,danio);
-Tributo tributo1("Katniss",150,true,22.7);
-Tributo tributo2("Prim",120,true,25.7);
+Tributo tributo1("Katniss",40,true,5.5);
+Tributo tributo2("Prim",20,true,7.7);
 
 Arma player("sus manos",0,0);
 Arma sinsajo("Sinsajo",12.5,1);
@@ -187,7 +187,7 @@ Arma espada("Espada de los Distritos",7.5,1);
 Arma real("Navaja Real del Capitolio",6.5,1);
 
 
-Enemigo tributo3("Cato",130,true,22.8);
+Enemigo tributo3("Cato",50,true,5.5);
 
 
 cout << "============================================" << endl;
